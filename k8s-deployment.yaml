@@ -7,7 +7,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    mathlabels:
+    matchLabels:
       app: streamlit
   template:
     metadata:
